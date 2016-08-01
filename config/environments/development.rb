@@ -1,4 +1,5 @@
 Rails.application.configure do
+
   config.assets.raise_production_errors = true
   # Settings specified here will take precedence over those in config/application.rb.
 
