@@ -29,7 +29,6 @@ group :test, :development do
   gem "database_cleaner"
   gem "pry"
   gem "guard-rspec", require: false
-  gem "thin"
 end
 
 gem "bootstrap-sass", "~> 3.1.1"
