@@ -9,10 +9,11 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
-gem 'sqlite3', :group => [:development, :test]
+gem 'sqlite3',:group => [:development, :test]
 group :production do
   gem 'thin'
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :test, :development do
@@ -26,7 +27,6 @@ group :test, :development do
   gem "factory_girl_rails"
   gem "simplecov"
   gem "database_cleaner"
-  gem "sqlite3"
   gem "pry"
   gem "guard-rspec", require: false
   gem "thin"
