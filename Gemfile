@@ -11,7 +11,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'sqlite3',:group => [:development, :test]
 group :production do
-  gem 'thin'
   gem 'pg'
   gem 'rails_12factor'
 end
